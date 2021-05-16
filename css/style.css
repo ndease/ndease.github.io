@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
 font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 background-color: var(--header-bg);
-color:var(--secondary-text);
+color:white;
 text-shadow:3px 3px 0px rgba(100,100,100,.5);
 margin-top:0;
 letter-spacing: .3em;
