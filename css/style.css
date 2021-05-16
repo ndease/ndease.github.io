@@ -103,24 +103,28 @@ a.btn:hover{
   text-align:center;
 }
 
-img {
+ img {
   opacity: .6;
-  max-width: 350px;
-  margin:1em;
 }
 
-@media (max-width:800px) {
-  img{
-    max-width:250px;
-  }
-}
 img:hover{
   opacity:1;
   cursor:pointer;
+  z-index:9999;
   transform: scale(1.5);
   transition: .5s ease;
 }
 
+.img-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding:10px;
+  align-items: center;
+}
+.img-grid img {
+  max-width: 100%;
+}
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
