@@ -1,0 +1,44 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="refresh" content="30">
+  </head>
+<body>
+  <style>
+  video{
+    position: absolute;
+    z-index:-1;
+    height:100%;
+    width:100%;
+  }
+  </style>
+  <video autoplay muted>
+    <source src="video/Pexels Videos 1448735.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+  </video>
+
+  <!-- <style>
+body{
+      background-image: url("img/2.jpg");
+      background-position: center; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    </style> -->
+  <script>
+  function setup() {
+    createCanvas(window.innerWidth,window.innerHeight);
+    strokeWeight(10);
+    noFill();
+  }
+
+  function draw() {
+    stroke(random(255,255,255));
+    strokeWeight(1);
+    bezier(random(0,window.innerWidth),random(0,window.innerWidth),random(0,window.innerWidth),random(0,window.innerWidth),random(0,window.innerWidth),random(0,window.innerWidth),random(0,window.innerWidth),random(0,window.innerWidth));
+  }
+  </script>
+  </body>
+</html>
