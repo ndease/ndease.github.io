@@ -12,10 +12,22 @@
   --card-bg:#e9f5db;
   font-size:1rem;
 }
+
+main{
+  max-width: 80%;
+  margin-left:10%;
+}
+@media(max-width:900px){
+  main{
+    max-width:100%;
+    margin-left:0;
+  }
+}
 hr{
 border:3px dashed var(--main-bg);
 }
-h1, h2, h3, h4, h5 {
+
+h2 {
 font-family: 'Roboto', sans-serif;
 text-transform: uppercase;
 background-color: var(--header-bg);
@@ -28,9 +40,15 @@ padding:.5em;
 }
 h1{
   border-bottom:solid 10px var(--darker);
+  font-size:3em;
+  text-align:center;
 }
 h2{
   font-size:1.7em;
+}
+
+h3{
+  font-size:1.5em;
 }
 html{
   background-image: linear-gradient(rgba(100,100,100,.05) 2px, transparent 2px),
@@ -60,7 +78,6 @@ border-radius: 20px;
 
 .card{
   border:solid 1px var(--dark-bg);
-  margin-top:2em;
   display:block;
   background-color:var(--card-bg);
   box-shadow: 5px 5px 0px 0px var(--darkest);
@@ -101,6 +118,10 @@ a.btn:hover{
 
 .card h2 {
   text-align:center;
+}
+
+.card h3{
+  padding:1.8em;
 }
 
  img {
