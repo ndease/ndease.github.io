@@ -39,12 +39,28 @@ padding:.5em;
 /* border-top:50px solid var(--card-bg); */
 }
 h1{
-  border-bottom:solid 10px var(--darker);
   font-size:3em;
   text-align:center;
+  border-bottom:5px solid var(--darkest);
+  margin-bottom:0;
+  color: var(--secondary-text);
+  text-shadow: 3px 3px var(--darkest);
 }
 h2{
   font-size:1.7em;
+}
+
+.h2{
+    font-size:1.7em;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    border-bottom:0;
+    background-color: var(--header-bg);
+    color:white;
+    text-shadow:3px 3px 0px rgba(100,100,100,.5);
+    margin-top:0;
+    letter-spacing: .3em;
+    padding:.5em;
 }
 
 h3{
@@ -66,6 +82,39 @@ color:var(--darkest);
 font-family: 'Roboto', sans-serif;
 }
 
+a.branding{
+  font-size:3em;
+  text-align:center;
+  border-bottom:5px solid var(--darkest);
+  margin-bottom:0;
+  color: var(--secondary-text);
+  text-shadow: 3px 3px var(--darkest);
+  display:block;
+  margin-top:.5em;
+}
+
+a.skip-link{
+  position: absolute;
+  transform: translateY(-200%);
+}
+
+a.skip-link:focus{
+    transform: translateY(0%);
+    background-color:var(--card-bg)
+}
+
+nav ul {
+  list-style:none;
+  text-align:center;
+  display:block;
+  padding:0;
+}
+nav li{
+  display:inline;
+  font-size:2em;
+  padding:1em;
+}
+
 .container{
 display:grid;
 grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -73,14 +122,18 @@ gap: 30px;
 padding:1em;
 margin:20px;
 border-radius: 20px;
-/* background-color:var(--card-bg); */
 }
 
 .card{
   border:solid 1px var(--dark-bg);
   display:block;
+  padding:2em;
   background-color:var(--card-bg);
   box-shadow: 5px 5px 0px 0px var(--darkest);
+}
+
+.card li{
+    line-height: 2em;
 }
 .fancy{
   font-family: 'Pangolin', cursive;
@@ -91,6 +144,10 @@ a{
     color:var(--darkest);
     text-decoration: none;
     font-weight: bolder;
+}
+
+.card a{
+text-decoration: underline;
 }
 
 a.btn{
@@ -112,16 +169,8 @@ a.btn:hover{
   transition: .5s ease;
 }
 
-.card p {
-  padding:1.8em;
-}
-
 .card h2 {
   text-align:center;
-}
-
-.card h3{
-  padding:1.8em;
 }
 
  img {
