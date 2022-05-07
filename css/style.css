@@ -83,7 +83,7 @@ a.branding{
   text-align:center;
   border-bottom:1px solid;
   margin-bottom:0;
-  color: var(--secondary-text);
+  color: white;
   text-shadow: 3px 3px var(--darkest);
   display:block;
   margin-top:.5em;
@@ -98,9 +98,12 @@ a.skip-link:focus{
     transform: translateY(0%);
     background-color:var(--card-bg)
 }
-
+nav{
+  background-color:rgba(0,0,0,.5);
+  padding:.2em;
+}
 nav ul a{
-  color:var(--secondary-text);
+  color:white;
     text-shadow: 2px 2px var(--darkest);
 }
 
@@ -227,7 +230,9 @@ img:hover{
 
 html {
   color: #222;
-  background-color:var(--main-bg);
+  background:url(../img/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 1em;
   line-height: 1.4;
 }
