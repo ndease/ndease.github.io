@@ -10,7 +10,7 @@
   --darker:#1b263b;
   --darkest:#0d1b2a;
   --card-bg:#778da9;
-  font-size:1.2rem;
+  font-size:1rem;
 }
 
 main{
@@ -79,7 +79,7 @@ font-family: 'Roboto', sans-serif;
 
 
 a.branding{
-  font-size:3em;
+  font-size:3.5em;
   text-align:center;
   border-bottom:1px solid;
   margin-bottom:0;
@@ -101,6 +101,7 @@ a.skip-link:focus{
 nav{
   background-color:rgba(0,0,0,.5);
   padding:.2em;
+  font-size:.7em;
 }
 nav ul a{
   color:white;
@@ -131,7 +132,7 @@ border-radius: 20px;
 .card{
   border:solid 1px var(--dark-bg);
   display:block;
-  /* padding:2em; */
+  padding:.5em;
   background-color:var(--card-bg);
   box-shadow: 5px 5px 0px 0px var(--darkest);
   border-bottom-left-radius: 20px;
