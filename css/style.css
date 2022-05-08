@@ -226,7 +226,9 @@ img:hover{
 
 html {
   color: #222;
-  background:black;
+  background:url("../img/site_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-size: 1em;
   line-height: 1.4;
 }
