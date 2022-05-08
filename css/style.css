@@ -70,6 +70,9 @@ color:var(--darkest);
 font-family: 'Roboto', sans-serif;
 }
 
+a{
+  color:yellow;
+}
 
 
 a.branding{
@@ -97,7 +100,7 @@ nav{
   font-size:.7em;
 }
 nav ul a{
-  color:white;
+  color:rgba(200,200,50,1);
 }
 
 nav ul {
@@ -146,7 +149,7 @@ border-radius: 20px;
 }
 
 a{
-    color:var(--darkest);
+    color:rgba(200,200,50,1);
     text-decoration: none;
     font-weight: bolder;
 }
