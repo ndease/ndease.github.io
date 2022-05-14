@@ -164,10 +164,6 @@ a.btn:hover{
   transition: .5s ease;
 }
 
- img {
-  opacity: .6;
-}
-
 .img-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
