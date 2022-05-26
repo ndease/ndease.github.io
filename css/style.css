@@ -118,14 +118,6 @@ padding:1em;
   display:block;
   padding:.5em;
 }
-/* .card p{
-  padding-left:2em;
-  padding-right:2em;
-} */
-.card h3{
-  padding-left:1em;
-  padding-right:1em;
-}
 .card li{
     line-height: 2em;
 }
