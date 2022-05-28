@@ -10,6 +10,11 @@
   font-size:1.3rem;
 }
 
+@font-face {
+  font-family: 'Source Code Pro';
+  src:  url('../fonts/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+}
+
 main{
   max-width: 50%;
   margin-left:25%;
@@ -29,7 +34,7 @@ border:3px dashed var(--main-bg);
 }
 
 h2 {
-font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
 color:var(--header-text);
 margin-top:0;
 border-bottom:1px solid white;
@@ -46,7 +51,7 @@ h2{
 
 .h2{
     font-size:2em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
 border-bottom:1px solid white;
     color:var(--header-text);
     margin-top:0;
@@ -59,7 +64,8 @@ h3{
 body{
 color:var(--body-text);
 background-color:var(--main-bg);
-font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+line-height:1.5;
 }
 
 a{
