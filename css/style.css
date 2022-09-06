@@ -7,7 +7,7 @@
   --body-text:white;
   --link-text:yellow;
   --card-bg:black;
-  font-size:1.3rem;
+  font-size:1.1rem;
 }
 
 @font-face {
@@ -126,14 +126,19 @@ padding:1em;
 }
 .card li{
     line-height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    border-bottom:1px solid rgb(30,30,30)
 }
+
 .fancy{
   font-family: 'Pangolin', cursive;
   text-transform: lowercase;
 }
 
 a{
-    color:rgba(200,200,50,1);
+    color:white;
     text-decoration: none;
     font-weight: bolder;
 }
