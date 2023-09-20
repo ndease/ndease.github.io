@@ -15,70 +15,73 @@
   <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <meta name="theme-color" content="#fafafa">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Pangolin&Roboto:wght@300;400&display=swap" rel="stylesheet">
-  <script src="js/vendor/lazysizes.min.js" async=""></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to main content</a>
-  <nav>
-    <a class="branding" href="index.html">Nicholas Dease</a>
-    <ul>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="games.html">Games</a></li>
-      <li><a href="links.html">Links</a></li>
-    </ul>
-  </nav>
+<a class="visually-hidden-focusable" href="#main">Skip to main content</a>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-4">Nicholas Dease</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="art.html" class="nav-link active">Art</a></li>
+        <li class="nav-item"><a href="https://docs.google.com/document/d/16nQxDDXdvul0Kdj8mc06ypA1vyj58y-OELkUTub3KJU/edit?usp=sharing" target="_blank" class="nav-link">CV</a></li>
+        <li class="nav-item"><a href="links.html" class="nav-link">Links</a></li>
+      </ul>
+    </header>
+  </div>
 <main id="main">
   <div class="container">
-    <div class="card">
-      <h2>Noumena - 2016</h2>
+    <div class="">
+      <h2>Noumena</h2>
       <p>Noumena is an collection of prints and interactive game-like software that models the experience
   of the Absurd. Made in Unity using Google Earth for textures and Maya for 3D modeling.</p>
-    <hr>
     <div class="img-grid">
-  <img class="lazyload" data-sizes="auto" data-src="img/1.png" alt="Some twisted pixels">
-  <img class="lazyload" data-sizes="auto" data-src="img/2.png" alt="a textured curtain">
-  <img class="lazyload" data-sizes="auto" data-src="img/3.png" alt="looking up at empty boxes">
-  <img class="lazyload" data-sizes="auto" data-src="img/4.png" alt="tree growing in a house">
-  <img class="lazyload" data-sizes="auto" data-src="img/5.png" alt="busted tv in nowhere">
+  <img src="img/1.png" class="img-fluid m-3" width="350" alt="Some twisted pixels">
+  <img src="img/2.png" class="img-fluid m-3" width="350" alt="a textured curtain">
+  <img src="img/3.png" class="img-fluid m-3" width="350" alt="looking up at empty boxes">
+  <img src="img/4.png" class="img-fluid m-3" width="350" alt="tree growing in a house">
+  <img src="img/5.png" class="img-fluid m-3" width="350" alt="busted tv in nowhere">
   </div>
     </div>
+      <hr>
   </div>
   <div class="container">
-    <div class="card">
-      <h2>Human Error - 2015</h2>
-      <p>"Human error refers to something has been done that was "not intended by the actor; not desired by a set of rules or an external observer; or that led the task or system outside its acceptable limits". In short, it is a deviation from intention, expectation or desirability. Logically, human actions can fail to achieve their goal in two different ways: the actions can go as planned, but the plan can be inadequate (leading to mistakes); or, the plan can be satisfactory, but the performance can be deficient (leading to slips and lapses).However, a mere failure is not an error if there had been no plan to accomplish something in particular." <a href="https://en.wikipedia.org/wiki/Human_error" target="_blank">~from Wikipedia</a></p><hr>
-      <p>Scans of incorrect information composited in photoshop with errors highlighted.</p><hr>
+    <div class="">
+      <h2>A Record of Human Error</h2>
+      <p>"Human error refers to something has been done that was "not intended by the actor; not desired by a set of rules or an external observer; or that led the task or system outside its acceptable limits". In short, it is a deviation from intention, expectation or desirability. Logically, human actions can fail to achieve their goal in two different ways: the actions can go as planned, but the plan can be inadequate (leading to mistakes); or, the plan can be satisfactory, but the performance can be deficient (leading to slips and lapses).However, a mere failure is not an error if there had been no plan to accomplish something in particular." <a href="https://en.wikipedia.org/wiki/Human_error" target="_blank">~from Wikipedia</a></p>
+      <p>Scans of incorrect information composited in photoshop with errors highlighted.</p>
   <div class="img-grid">
   <!-- <img src="img/r1_physics.jpg"> -->
-  <img class="lazyload" data-sizes="auto" data-src="img/r2_Astronomy.jpg" alt="a record of error in astronomy">
+  <img class="img-fluid m-3" width="350" src="img/r2_Astronomy.jpg" alt="a record of error in astronomy">
   <!-- <img src="img/r3_biology.jpg"> -->
-  <img class="lazyload" data-sizes="auto" data-src="img/r4_Geology.jpg" alt="a record of error in geography">
+  <img class="img-fluid m-3" width="350" src="img/r4_Geology.jpg" alt="a record of error in geography">
   </div>
     </div>
+    <hr>
   </div>
   <div class="container">
-    <div class="card">
-      <h2>Digital Paintings - ???</h2>
-  <p>Done in Photoshop or Krita with a Wacom.</p><hr>
+    <div class="">
+      <h2>Digital Paintings</h2>
+  <p>Done in Photoshop or Krita with a Wacom.</p>
   <div class="img-grid" style="gap:30px;">
-  <img style="grid-row:span 2;" class="lazyload" data-sizes="auto" data-src="img/dp_1.jpg" alt="reaching for the coin">
-  <img style="grid-column:span 2;" class="lazyload" data-sizes="auto" data-src="img/dp_2.jpg" alt="christ carrying a tetrimino">
-  <img class="lazyload" data-sizes="auto" data-src="img/2.jpg">
-  <img class="lazyload" data-sizes="auto" data-src="img/DEASE_photo.jpg">
+  <img class="img-fluid m-3" width="350" src="img/dp_2.jpg" alt="christ carrying a tetrimino">
+  <img class="img-fluid m-3" width="350" src="img/2.jpg">
+  <img class="img-fluid m-3" width="350" src="img/DEASE_photo.jpg">
+  <img class="img-fluid m-3" width="350" src="img/dp_1.jpg" alt="reaching for the coin">
   <img style="grid-column:span 2;" class="lazyload" data-sizes="auto" data-src="img/concept.jpg">
   </div>
-    </div>
+    <hr>
   </div>
-
-  <div class="container">
-    <div class="card">
+  <div class="container mb-5">
+    <div class="">
     <h2>Jackson Pollock Generator - 2014 </h2>
     <p>Sure, your kid CAN do that. But did you know your computer can do it too? Click the 'paint it' button below and watch in awe as your computer generates a priceless work of modern art.</p>
-    <hr>
-   <a class="btn" href="jp-gen.html" target="_blank">Paint it</a>
+   <a class="btn btn-primary" href="jp-gen.html" target="_blank">Paint it</a>
   </div>
   </div>
 </main>
